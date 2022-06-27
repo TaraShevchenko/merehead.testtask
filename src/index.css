@@ -1,13 +1,63 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  font-family: 'Nunito', sans-serif;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 1280px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header_title {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+.list_item {
+  padding: 10px 15px;
+  border-bottom: solid 1px #e8e8e8;
+}
+
+.list_item:first-child {
+  border-top: solid 1px #e8e8e8;
+}
+
+.title {
+  font-size: 18px;
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+.form .ant-input {
+  margin-bottom: 10px;
+}
+
+.form .ant-input:last-child {
+  margin-bottom: 0;
+}
+
+.desc {
+  font-size: 16px;
+  color: #8c8c8c;
+}
+.button_group {
+  display: flex;
+  margin-top: 10px;
+}
+
+.button:first-child {
+  margin-right: 10px;
+}
+
+.pagination {
+  padding: 20px 0 0;
 }
